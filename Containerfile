@@ -64,6 +64,7 @@ RUN pacman -S \
         cosign \
         exa \
         fd \
+        ghidra \
         glib2 \
         gdb \
         icu69 \
