@@ -64,6 +64,10 @@ RUN pacman -S \
         cosign \
         exa \
         fd \
+        glib2 \
+        icu69 \
+        libdbusmenu-glib \
+        org.freedesktop.secrets \
         zsh \
         --noconfirm
 
