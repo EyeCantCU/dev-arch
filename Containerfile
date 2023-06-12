@@ -71,6 +71,7 @@ RUN git clone https://aur.archlinux.org/paru-bin.git --single-branch && \
     cd .. && \
     rm -drf paru-bin && \
     paru -S \
+        aur/visual-studio-code-bin \
         --noconfirm
 USER root
 WORKDIR /
