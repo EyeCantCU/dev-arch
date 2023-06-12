@@ -67,6 +67,8 @@ RUN pacman -S \
         glib2 \
         icu69 \
         libdbusmenu-glib \
+        micro \
+        nano \
         org.freedesktop.secrets \
         zsh \
         --noconfirm
