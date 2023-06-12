@@ -60,6 +60,7 @@ RUN pacman -S \
         lib32-openal \
         --noconfirm && \
     pacman -S \
+        zsh \
         --noconfirm
 
 # Add paru and install AUR packages
