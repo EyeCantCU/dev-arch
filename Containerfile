@@ -65,6 +65,7 @@ RUN pacman -S \
         exa \
         fd \
         glib2 \
+        gdb \
         icu69 \
         libdbusmenu-glib \
         micro \
