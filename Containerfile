@@ -74,6 +74,7 @@ RUN pacman -S \
         nano \
         npm \
         org.freedesktop.secrets \
+        skopeo \
         yarn \
         zsh \
         --noconfirm
