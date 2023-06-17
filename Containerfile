@@ -68,6 +68,7 @@ RUN pacman -S \
         glib2 \
         gdb \
         icu69 \
+        ksshaskpass \
         libdbusmenu-glib \
         micro \
         nano \
