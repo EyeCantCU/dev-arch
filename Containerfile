@@ -96,6 +96,9 @@ WORKDIR /
 # We do this last because it'll only apply to updates the user makes going forward. We don't want to optimize for the build host's environment.
 RUN sed -i 's/-march=x86-64 -mtune=generic/-march=native -mtune=native/g' /etc/makepkg.conf
 
+# Install git-peek
+RUN npm install -g @jarred/git-peek
+
 # Cleanup
 RUN userdel -r build && \
     rm -drf /home/build && \
