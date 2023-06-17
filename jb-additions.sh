@@ -9,6 +9,6 @@ distrobox-enter -n dev-arch -- '  paru -S aur/intellij-idea-ultimate-edition-jre
 distrobox-enter -n dev-arch -- '  distrobox-export --app intellij-idea-ultimate-edition'
 
 distrobox-enter -n dev-arch -- '  paru -S aur/pycharm-professional --noconfirm'
-distrobox-enter -n dev-arch -- '  distrobox-export --app pycharm-professional'
+distrobox-enter -n dev-arch -- '  distrobox-export --app pycharm'
 
 distrobox-enter -n dev-arch -- '  yes | paru -Sccd'
