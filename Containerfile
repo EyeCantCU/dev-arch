@@ -71,7 +71,9 @@ RUN pacman -S \
         libdbusmenu-glib \
         micro \
         nano \
+        npm \
         org.freedesktop.secrets \
+        yarn \
         zsh \
         --noconfirm
 
