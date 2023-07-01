@@ -1,4 +1,7 @@
 # dev-arch
+
+[![build-dev-arch](https://github.com/EyeCantCU/dev-arch/actions/workflows/build.yml/badge.svg)](https://github.com/EyeCantCU/dev-arch/actions/workflows/build.yml)
+
 These images are not meant to be used as a host operating system. Please see [BlueWhaleOS](https://github.com/eyecantcu/BlueWhaleOS/) for more information.
 
 ## Usage
