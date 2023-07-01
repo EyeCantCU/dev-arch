@@ -64,7 +64,6 @@ RUN pacman -S \
         ghidra \
         glib2 \
         gdb \
-        icu69 \
         ksshaskpass \
         libdbusmenu-glib \
         micro \
